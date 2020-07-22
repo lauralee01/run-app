@@ -7637,8 +7637,12 @@ a.text-text-gray:hover, a.text-text-gray:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+nav {
+  height: 80px; }
+
 .navbar-brand {
-  width: 80px; }
+  width: 140px;
+  margin-right: 40px; }
 
 .navbar-nav a {
   color: white; }
@@ -7665,16 +7669,18 @@ a.text-text-gray:hover, a.text-text-gray:focus {
       margin-top: -10px; }
   .run-desktop-cover {
     background-image: url("/images/women-run.jpg");
-    width: 100%;
     height: 600px;
-    background-size: cover;
-    object-fit: contain; }
+    background-size: 100%;
+    background-position: 0% 20%;
+    background-repeat: no-repeat; }
   .run-desktop-info {
     text-transform: uppercase;
     padding: 6px 0;
     border-top: 3px solid #F26522;
     border-bottom: 3px solid #F26522;
     font-family: 'Montserrat-BoldItalic'; }
+  .run-desktop-image {
+    width: 490px; }
   .run-desktop-button {
     background: #F26522;
     color: #ffffff;
@@ -7683,7 +7689,7 @@ a.text-text-gray:hover, a.text-text-gray:focus {
     transform: skew(-21deg);
     font-size: 14px;
     border: none;
-    padding: 4px 16px;
+    padding: 8px 22px;
     display: inline-block; }
   .run-desktop-btn {
     background: #00597b;
@@ -7703,12 +7709,16 @@ a.text-text-gray:hover, a.text-text-gray:focus {
   .run-desktop-text {
     font-family: 'Montserrat-Light';
     font-size: 14px;
-    line-spacing: 8px; }
+    line-height: 30px;
+    width: 95%; }
+  .run-desktop-sat {
+    font-size: 12px; }
   .run-desktop-small {
     font-size: 20px; }
   .run-desktop-placard {
     top: 45%;
-    left: 10px; }
+    left: 10px;
+    -webkit-filter: drop-shadow(0.5px 0.5px 0px #F26522); }
   .run-desktop-gray {
     color: #6c757d;
     font-family: "Montserrat-BoldItalic";
@@ -7734,7 +7744,8 @@ a.text-text-gray:hover, a.text-text-gray:focus {
     font-family: 'SansSerif';
     font-weight: bold;
     font-size: 16px;
-    margin-bottom: 8px; }
+    margin-bottom: 8px;
+    margin-top: 16px; }
   .run-desktop-divider {
     width: 100%;
     height: 400px;
@@ -7797,6 +7808,30 @@ a.text-text-gray:hover, a.text-text-gray:focus {
   .run-desktop-light {
     color: #ffffff;
     border-top: 1px solid #ffffff; }
+  .run-desktop-hexbutton {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    background: #001641;
+    text-transform: uppercase;
+    border: 2px solid #F26522;
+    font-family: 'Montserrat-MediumItalic';
+    color: #ffffff;
+    font-size: 12px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 80% 50%, 100% 100%, 0% 100%, 30% 10%, 30% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 90% 50%, 100% 100%, 0% 100%, 10% 0%, 10% 100%); }
+  .run-desktop-hexblue {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    background: #001641;
+    text-transform: uppercase;
+    border: 2px solid #0091C7;
+    font-family: 'Montserrat-MediumItalic';
+    color: #ffffff;
+    font-size: 12px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 80% 50%, 100% 100%, 0% 100%, 30% 10%, 30% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 90% 50%, 100% 100%, 0% 100%, 10% 0%, 10% 100%); }
   .run-desktop-fresh {
     font-size: 20px;
     font-family: 'Montserrat-Light';
@@ -7809,3 +7844,25 @@ a.text-text-gray:hover, a.text-text-gray:focus {
     height: 50px;
     padding: 4px 16px;
     display: inline-block; }
+
+.material-icons {
+  color: #F26522;
+  font-size: 22px; }
+
+.input-group {
+  font-family: 'Lato-Regular';
+  color: #000000;
+  font-size: 12px; }
+  .input-group-text {
+    background: #ffffff;
+    border-right: none;
+    border-radius: 0; }
+  .input-group-prepend {
+    background: none !important; }
+
+.form-control {
+  border-radius: 0;
+  height: 50px;
+  border-left: 0;
+  border-right: 0;
+  padding-left: 0; }

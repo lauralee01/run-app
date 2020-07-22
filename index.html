@@ -1,11 +1,12 @@
 <html>
     <head>
         <meta charset="UTF-8">
-<!--        <meta name="viewport" content="width=device-width initial-scale=1">-->
+        <meta name="viewport" content="width=device-width initial-scale=1">
         <title>RunItNow</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
@@ -47,10 +48,10 @@
     <div class="container-fluid run-desktop-cover px-5">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="run-desktop-image">
+                <div class="run-desktop-image mx-5 mt-3 mb-2">
                     <img src="images/logo-orange.png" class="img-fluid">
                 </div>
-                <div class="px-5">
+                <div class="px-5 mx-5">
                     <h4 class="run-desktop-info d-inline-block text-white mb-4">About us</h4>
                     <p class="run-desktop-text text-white">Launched in the Spring 2014, Marathons and Half Marathons expects to become the go-to resource for runners looking to go 13.1 & beyond. Our unparalleled race calendar will be backed up by magazine-style reviews curated by our team and submitted by workers like you. We'll also be actively encouraging race directors to tell us about their races, which we think will be a really neat way to connect runners and race directors.</p>
                 </div>
@@ -64,15 +65,27 @@
                         <button class="run-desktop-button"><span class="run-desktop-select">Select</span></button>
                     </div>
                     <form class="form text-center my-2 my-lg-0">
-                        <input class="form-control col-md-6 d-block mx-auto mb-3" type="search" placeholder="City/State/Zip/Race Name" aria-label="Search">
-<!--                        <div class="d-flex justify-content-between col-md-6 mx-auto">-->
-<!--                            <div class="form-group mr-3 w-100">-->
-<!--                                <input type="date" class="form-control" id="date" placeholder="From date">-->
-<!--                            </div>-->
-<!--                            <div class="form-group w-100">-->
-<!--                                <input type="date" class="form-control" id="date" placeholder="From date">-->
-<!--                            </div>-->
-<!--                        </div>-->
+                        <div class="input-group mb-4 col-md-6 mx-auto">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text material-icons" id="basic-addon1">room</span>
+                            </div>
+                            <input class="form-control" type="search" placeholder="City / State / Zip / Race Name" aria-label="Search" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="d-flex col-md-6 mx-auto mb-3">
+                            <div class="input-group mb-3 mr-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text material-icons" id="basic-addon2">calendar_today</span>
+                                </div>
+                                <input placeholder="From Date:" class="form-control" type="text" aria-describedby="basic-addon2">
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text material-icons" id="basic-addon3">calendar_today</span>
+                                </div>
+                                <input placeholder="To Date:" class="form-control" type="text"  aria-describedby="basic-addon3">
+                            </div>
+                        </div>
+
                         <button class="run-desktop-button"><span class="run-desktop-select">Find your race!</span></button>
                     </form>
                 </div>
@@ -89,14 +102,14 @@
                     <div class="card">
                         <img class="card-img-top run-desktop-card-image" src="/images/toronto.png" alt="Card image cap">
                         <div class="run-desktop-placard position-absolute">
-                            <button class="run-desktop-button"><span class="run-desktop-select">Marathon</span></button>
-                            <button class="run-desktop-button"><span class="run-desktop-select">Marathon</span></button>
+                            <button class="run-desktop-hexbutton"><span class="run-desktop-select">Marathon</span></button>
+                            <button class="run-desktop-hexblue"><span class="run-desktop-select">Marathon</span></button>
                         </div>
                         <div class="card-body bg-secondary text-white">
                             <p class="card-text run-desktop-card-header">NYCRUNS Brooklyn Marathon & Half Marathon</p>
                             <p class="text-uppercase run-desktop-gray">Buffalo, NY</p>
                             <p class="run-desktop-date">May 24,2020</p>
-                            <span class="text-primary text-uppercase">Sunday</span>
+                            <span class="text-primary run-desktop-sat text-uppercase">Sunday</span>
                             <div class="text-right">
                                 <button class="run-desktop-btn"><span class="run-desktop-select">More Info</span></button>
                             </div>
@@ -107,14 +120,13 @@
                     <div class="card">
                         <img class="card-img-top run-desktop-card-image" src="/images/buffalo.jpg" alt="Card image cap">
                         <div class="run-desktop-placard position-absolute">
-                            <button class="run-desktop-button"><span class="run-desktop-select">Marathon</span></button>
-                            <button class="run-desktop-button"><span class="run-desktop-select">Marathon</span></button>
+                            <button class="run-desktop-hexbutton"><span class="run-desktop-select">Marathon</span></button>
                         </div>
                         <div class="card-body bg-secondary text-white">
                             <p class="card-text run-desktop-card-header">NYCRUNS Brooklyn Marathon & Half Marathon</p>
                             <p class="text-uppercase run-desktop-gray">Brooklyn, NY</p>
                             <p class="run-desktop-date">October 17,2020</p>
-                            <span class="text-primary text-uppercase">Saturday</span>
+                            <span class="text-primary run-desktop-sat text-uppercase">Saturday</span>
                             <div class="text-right">
                                 <button class="run-desktop-btn"><span class="run-desktop-select">More Info</span></button>
                             </div>
@@ -125,14 +137,14 @@
                     <div class="card">
                         <img class="card-img-top run-desktop-card-image" src="/images/toronto.png" alt="Card image cap">
                         <div class="run-desktop-placard position-absolute">
-                            <button class="run-desktop-button"><span class="run-desktop-select">Marathon</span></button>
-                            <button class="run-desktop-button"><span class="run-desktop-select">Marathon</span></button>
+                            <button class="run-desktop-hexbutton"><span class="run-desktop-select">Marathon</span></button>
+                            <button class="run-desktop-hexblue"><span class="run-desktop-select">Marathon</span></button>
                         </div>
                         <div class="card-body bg-secondary text-white">
                             <p class="card-text run-desktop-card-header">Toronto Marathon Half Marathon /10k / 5k/ Relay </p>
                             <p class="text-uppercase run-desktop-gray">Toronto, Ontario</p>
                             <p class="run-desktop-date">October 18,2020</p>
-                            <span class="text-primary text-uppercase">Sunday</span>
+                            <span class="text-primary run-desktop-sat text-uppercase">Sunday</span>
                             <div class="text-right">
                                 <button class="run-desktop-btn"><span class="run-desktop-select">More Info</span></button>
                             </div>
@@ -143,14 +155,14 @@
                     <div class="card">
                         <img class="card-img-top run-desktop-card-image" src="/images/buffalo.jpg" alt="Card image cap">
                         <div class="run-desktop-placard position-absolute">
-                            <button class="run-desktop-button"><span class="run-desktop-select">Marathon</span></button>
-                            <button class="run-desktop-button"><span class="run-desktop-select">Marathon</span></button>
+                            <button class="run-desktop-hexbutton"><span class="run-desktop-select">Marathon</span></button>
+                            <button class="run-desktop-hexblue"><span class="run-desktop-select">Marathon</span></button>
                         </div>
                         <div class="card-body bg-secondary text-white">
                             <p class="card-text run-desktop-card-header">NYCRUNS Brooklyn Marathon & Half Marathon</p>
                             <p class="text-uppercase run-desktop-gray">Brooklyn, NY</p>
                             <p class="run-desktop-date">October 17,2020</p>
-                            <span class="text-primary text-uppercase">Saturday</span>
+                            <span class="text-primary run-desktop-sat text-uppercase">Saturday</span>
                             <div class="text-right">
                                 <button class="run-desktop-btn"><span class="run-desktop-select">More Info</span></button>
                             </div>
@@ -210,7 +222,11 @@
                 <hr>
                 <div class="col-sm-12 d-flex justify-content-between text-white">
                     <h5 class="col-sm-12 col-md-6 text-white">&copy; 2020 Run this one</h5>
-                    <p>Facebook</p>
+                    <div>
+                        <span>Facebook</span>
+                        <span>Twitter</span>
+                        <span>LinkedIn</span>
+                    </div>
                 </div>
             </div>
         </div>
