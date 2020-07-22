@@ -7841,6 +7841,8 @@ nav {
     font-size: 20px;
     font-family: 'Montserrat-Light';
     width: 80%; }
+  .run-desktop-shownav {
+    display: none; }
   .run-desktop-cool {
     background: #0091C7;
     transform: skew(-21deg);
@@ -7871,3 +7873,103 @@ nav {
   border-left: 0;
   border-right: 0;
   padding-left: 0; }
+
+@media (max-width: 576px) {
+  .navbar-expand-lg {
+    display: none !important; }
+  .run-desktop-wrapper {
+    width: 90%; }
+  .run-desktop-cover {
+    background-size: cover;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important; }
+  .run-desktop-coverage {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    height: auto; }
+  .run-desktop-about {
+    display: none; }
+  .run-desktop-info {
+    font-size: 16px;
+    width: 100% !important;
+    display: block;
+    margin-top: 1rem !important; }
+  .run-desktop-small {
+    font-size: 14px; }
+  .run-desktop-background {
+    margin-top: 3rem !important; }
+  .run-desktop-buttoncover {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+  .run-desktop-coverbtn {
+    margin-right: 12px !important; }
+  .run-desktop-race {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important; }
+  .run-desktop-separator {
+    display: none; }
+  .run-desktop-cardflex {
+    display: flex;
+    width: 100% !important;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 0.5rem !important;
+    margin-right: 0; }
+  .run-desktop-slanted:after {
+    width: 16em; }
+  .run-desktop-fresh {
+    width: 100%;
+    font-size: 14px; }
+  .run-desktop-newsletter {
+    margin-right: 0.5rem !important;
+    margin-left: 0 !important;
+    text-align: center; }
+  .run-desktop-footer {
+    display: block; }
+    .run-desktop-footer-container {
+      text-align: center;
+      font-family: 'Montserrat-Light';
+      font-size: 12px; }
+    .run-desktop-footer-social {
+      display: block !important;
+      padding-bottom: 3rem; }
+  .run-desktop-platform {
+    padding: 0 3rem; }
+  .run-desktop-header {
+    display: none; }
+    .run-desktop-header-span {
+      display: block;
+      margin-top: 3px !important; }
+  .run-desktop-shownav {
+    display: block;
+    margin-top: -22px; }
+    .run-desktop-shownav-image {
+      width: 190px; }
+    .run-desktop-shownav-flex {
+      display: flex;
+      justify-content: space-between; }
+    .run-desktop-shownav-search {
+      color: #fff;
+      font-size: 32px; }
+  .run-desktop-divider {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    height: 350px; }
+  .run-desktop-card-cover {
+    margin-bottom: 1rem;
+    width: 100%; }
+  .navbar-toggler-icon {
+    color: #fff;
+    font-size: 40px; }
+  .navbar-toggler {
+    background: none;
+    border-radius: 0;
+    border: none; }
+  button:focus {
+    outline: none; }
+  .material-icons {
+    font-size: 20px !important; }
+  .form-control {
+    border-left: 0;
+    border-right: 0; } }
