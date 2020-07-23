@@ -325,6 +325,291 @@ nav {
   border-right: 0;
   padding-left: 0;
 }
+@media (max-width: 1024px) {
+  .run-desktop {
+    &-wrapper {
+      width: 100%;
+    }
+    &-image {
+      width: 280px;
+      margin-top: 3rem !important;
+    }
+    &-text {
+      width: 100%;
+    }
+    &-border {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+    }
+    &-cover {
+      background-size: cover;
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+    }
+    &-coverage {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+      height: auto;
+    }
+    &-small {
+      font-size: 14px;
+    }
+    &-background {
+      margin-top: 3rem !important;
+    }
+    &-buttoncover {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+    &-coverbtn {
+      margin-right: 12px !important;
+    }
+    &-race {
+      margin-left: 1rem !important;
+      margin-right: 1rem !important;
+    }
+    &-separator {
+      display: block;
+    }
+    &-cardflex {
+      display: flex;
+      width: 100% !important;
+      justify-content: center;
+      flex-direction: row;
+      margin-left: 0.5rem !important;
+      margin-right: 0;
+    }
+    &-slanted:after {
+      width: 20em;
+    }
+    &-fresh {
+      width: 100%;
+      font-size: 14px;
+    }
+    &-newsletter {
+      margin-right: 0.5rem !important;
+      margin-left: 0 !important;
+      text-align: center;
+    }
+    &-platform {
+      padding: 0 9rem;
+    }
+    &-placard {
+      top: 42%;
+      left: 10px;
+      position: absolute;
+    }
+    &-header {
+      display: none;
+      &-span {
+        display: block;
+        margin-top: 3px !important;
+      }
+    }
+    &-divider {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+      height: 400px;
+    }
+    &-card {
+      &-cover {
+        margin-bottom: 1rem;
+        width: 100%;
+        padding-left: 0;
+      }
+      &-header {
+        height: 70px;
+      }
+    }
+  }
+  .navbar-toggler-icon{
+    color: #fff;
+    font-size: 40px;
+  }
+  .navbar-toggler {
+    background: none;
+    border-radius: 0;
+    border: none;
+  }
+  button:focus {
+    outline: none;
+  }
+  .material-icons {
+    font-size: 20px !important;
+  }
+  .form-control {
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-expand-lg {
+    display: none !important;
+  }
+  .run-desktop {
+    &-wrapper {
+      display: block !important;
+      width: 50%;
+      margin: 0 auto;
+    }
+    &-cover {
+      background-size: cover;
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+    }
+    &-coverage {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+      height: auto;
+    }
+    &-placard {
+      top: 35%;
+      left: 10px;
+      position: absolute;
+    }
+    &-text {
+      width: 100%;
+      font-size: 12px;
+    }
+    &-information {
+      margin-left: 1.5rem !important;
+      font-size: 18px;
+    }
+    &-border {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+      margin-right: 0 !important;
+    }
+    &-about {
+      display: block;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+    &-info {
+      font-size: 16px;
+      display: block;
+      margin-top: 1rem !important;
+    }
+    &-small {
+      font-size: 14px;
+    }
+    &-background {
+      margin-top: 3rem !important;
+    }
+    &-buttoncover {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+    &-coverbtn {
+      margin-right: 12px !important;
+    }
+    &-race {
+      margin-left: 1rem !important;
+      margin-right: 1rem !important;
+    }
+    &-separator {
+      display: block;
+    }
+    &-cardflex {
+      display: flex;
+      width: 100% !important;
+      justify-content: center;
+      flex-direction: row;
+      margin-left: 0.5rem !important;
+      margin-right: 0;
+    }
+    &-slanted:after {
+      width: 20em;
+    }
+    &-fresh {
+      width: 100%;
+      font-size: 14px;
+    }
+    &-newsletter {
+      margin-right: 0.5rem !important;
+      margin-left: 0 !important;
+      text-align: center;
+    }
+    &-platform {
+      padding: 0 10.5rem;
+    }
+    &-header {
+      display: none;
+      &-span {
+        display: block;
+        margin-top: 3px !important;
+      }
+    }
+    &-form {
+      &-flex {
+        margin-left: 0 !important;
+      }
+      &-button {
+        margin-right: 15rem !important;
+      }
+    }
+    &-gray {
+      height: 40px;
+    }
+    &-date {
+      height: 50px;
+    }
+    &-director {
+      margin-left: 1.5rem !important;
+    }
+    &-fresh {
+      margin-left: 1.5rem !important;
+    }
+    &-directory {
+      margin-left: 1.5rem !important;
+    }
+    &-divider {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+      height: 400px;
+    }
+    &-card {
+      &-cover {
+        margin-bottom: 1rem;
+        width: 100%;
+        padding-left: 0;
+      }
+      &-header {
+        height: 100px;
+        margin-top: 3rem;
+      }
+    }
+  }
+  .navbar-toggler-icon{
+    color: #fff;
+    font-size: 40px;
+  }
+  .navbar-toggler {
+    background: none;
+    border-radius: 0;
+    border: none;
+  }
+  button:focus {
+    outline: none;
+  }
+  .material-icons {
+    font-size: 20px !important;
+  }
+  .form {
+    width: 170%;
+  }
+  .input-group {
+    margin-right: 0 !important;
+    margin-left: 2rem !important;
+  }
+  .form-control {
+    border-left: 0;
+    border-right: 0;
+  }
+}
 @media (max-width: 576px) {
   .navbar-expand-lg {
     display: none !important;
@@ -439,6 +724,7 @@ nav {
       &-cover {
         margin-bottom: 1rem;
         width: 100%;
+        padding-left: 0;
       }
     }
   }
