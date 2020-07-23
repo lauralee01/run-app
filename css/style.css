@@ -8036,10 +8036,6 @@ nav {
     .run-desktop-header-span {
       display: block;
       margin-top: 3px !important; }
-  .run-desktop-form-flex {
-    margin-left: 0 !important; }
-  .run-desktop-form-button {
-    margin-right: 15rem !important; }
   .run-desktop-gray {
     height: 40px; }
   .run-desktop-date {
@@ -8072,11 +8068,6 @@ nav {
     outline: none; }
   .material-icons {
     font-size: 20px !important; }
-  .form {
-    width: 170%; }
-  .input-group {
-    margin-right: 0 !important;
-    margin-left: 2rem !important; }
   .form-control {
     border-left: 0;
     border-right: 0; } }
