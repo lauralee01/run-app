@@ -7675,10 +7675,18 @@ nav {
     background-repeat: no-repeat; }
   .run-desktop-info {
     text-transform: uppercase;
-    padding: 6px 0;
+    padding: 5px 0;
     border-top: 3px solid #F26522;
     border-bottom: 3px solid #F26522;
-    font-family: 'Montserrat-BoldItalic'; }
+    font-family: 'Montserrat-BoldItalic';
+    transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    -moz-transform: skewX(-10deg); }
+    .run-desktop-info h4 {
+      transform: skew(10deg);
+      -webkit-transform: skew(10deg);
+      -moz-transform: skew(10deg);
+      margin: 0; }
   .run-desktop-image {
     width: 490px; }
   .run-desktop-button {
@@ -7998,6 +8006,9 @@ nav {
     font-size: 16px;
     display: block;
     margin-top: 1rem !important; }
+    .run-desktop-info h4 {
+      font-size: 1rem;
+      margin: 0; }
   .run-desktop-small {
     font-size: 14px; }
   .run-desktop-background {
@@ -8077,6 +8088,14 @@ nav {
     display: none !important; }
   .run-desktop-wrapper {
     width: 90%; }
+  .run-desktop-gray {
+    height: auto; }
+  .run-desktop-date {
+    height: auto; }
+  .run-desktop-placard {
+    top: 45%;
+    left: 10px;
+    position: absolute; }
   .run-desktop-cover {
     background-size: cover;
     padding-left: 1rem !important;
@@ -8158,6 +8177,9 @@ nav {
     margin-bottom: 1rem;
     width: 100%;
     padding-left: 0; }
+  .run-desktop-card-header {
+    height: auto;
+    margin-top: 0.5rem; }
   .navbar-toggler-icon {
     color: #fff;
     font-size: 40px; }

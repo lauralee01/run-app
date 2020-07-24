@@ -91,10 +91,20 @@ nav {
   }
   &-info {
     text-transform: uppercase;
-    padding: 6px 0;
+    padding: 5px 0;
     border-top: 3px solid #F26522;
     border-bottom: 3px solid #F26522;
     font-family: 'Montserrat-BoldItalic';
+    transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+
+    h4 {
+      transform: skew(10deg);
+      -webkit-transform: skew(10deg);
+      -moz-transform: skew(10deg);
+      margin: 0;
+    }
   }
   &-image {
     width: 490px;
@@ -491,6 +501,11 @@ nav {
       font-size: 16px;
       display: block;
       margin-top: 1rem !important;
+
+      h4 {
+        font-size: 1rem;
+        margin: 0;
+      }
     }
     &-small {
       font-size: 14px;
@@ -603,6 +618,17 @@ nav {
     &-wrapper {
       width: 90%;
     }
+    &-gray {
+      height: auto;
+    }
+    &-date {
+      height: auto;
+    }
+    &-placard {
+      top: 45%;
+      left: 10px;
+      position: absolute;
+    }
     &-cover {
       background-size: cover;
       padding-left: 1rem !important;
@@ -710,6 +736,10 @@ nav {
         margin-bottom: 1rem;
         width: 100%;
         padding-left: 0;
+      }
+      &-header {
+        height: auto;
+        margin-top: 0.5rem;
       }
     }
   }
