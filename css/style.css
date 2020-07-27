@@ -7659,14 +7659,18 @@ nav {
     font-family: 'Lato-Regular';
     text-transform: uppercase;
     padding: 4px 0;
-    width: 38%; }
+    width: 38%;
+    height: 90px; }
     .run-desktop-wrapper h3 {
-      font-size: 24px;
+      font-size: 36px;
       font-family: 'Montserrat-Light';
       letter-spacing: 3px;
       margin-bottom: -1px; }
     .run-desktop-wrapper span {
-      margin-top: -10px; }
+      font-weight: 500; }
+  .run-desktop-header-span {
+    font-size: 20px;
+    font-family: 'Montserrat'; }
   .run-desktop-cover {
     background-image: url("/images/women-run.jpg");
     height: 600px;
@@ -7695,7 +7699,7 @@ nav {
     text-transform: uppercase;
     font-family: 'Montserrat-BoldItalic';
     transform: skew(-21deg);
-    font-size: 14px;
+    font-size: 12px;
     border: none;
     padding: 8px 22px;
     display: inline-block; }
@@ -7730,7 +7734,7 @@ nav {
   .run-desktop-gray {
     color: #6c757d;
     font-family: "Montserrat-BoldItalic";
-    font-size: 14px; }
+    font-size: 12px; }
   .run-desktop-date {
     font-family: 'Lato-Regular';
     color: #eeeeee;
@@ -7751,7 +7755,7 @@ nav {
   .run-desktop-card-header {
     font-family: 'SansSerif';
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 8px;
     margin-top: 16px; }
   .run-desktop-footer {
