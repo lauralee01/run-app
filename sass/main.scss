@@ -82,6 +82,21 @@ nav {
         font-weight: 500;
       }
   }
+  &-buttoncover {
+    margin: 0 4.5rem 5.5rem 4.5rem;
+
+  }
+  &-marathon {
+    width: 120px;
+    height: 120px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+  }
   &-header-span {
     font-size: 20px;
     font-family: 'Montserrat';
@@ -304,6 +319,9 @@ nav {
   &-shownav {
     display: none;
   }
+  &-coverbtn {
+    padding: 0.25rem 0.9rem;
+  }
   &-cool {
     background:  #0091C7;
     transform: skew(-21deg);
@@ -315,6 +333,7 @@ nav {
   }
 
 }
+
 .material-icons {
   color: #F26522;
   font-size: 22px;
@@ -376,6 +395,7 @@ nav {
       display: flex;
       justify-content: center;
       width: 100%;
+      margin: 0 0 5rem 0;
     }
     &-coverbtn {
       margin-right: 12px !important;
@@ -446,6 +466,10 @@ nav {
     background: none;
     border-radius: 0;
     border: none;
+  }
+  &-marathon {
+    width: 120px;
+    height: 80px;
   }
   button:focus {
     outline: none;
@@ -518,10 +542,15 @@ nav {
     &-background {
       margin-top: 3rem !important;
     }
+    &-marathon {
+      width: 120px;
+      height: 80px;
+    }
     &-buttoncover {
       display: flex;
       justify-content: center;
       width: 100%;
+      margin: 0 0 5rem 0;
     }
     &-coverbtn {
       margin-right: 12px !important;
@@ -661,8 +690,9 @@ nav {
     }
     &-buttoncover {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       width: 100%;
+      margin: 0 0 4rem 0;
     }
     &-coverbtn {
       margin-right: 12px !important;

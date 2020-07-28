@@ -7668,6 +7668,15 @@ nav {
       margin-bottom: -1px; }
     .run-desktop-wrapper span {
       font-weight: 500; }
+  .run-desktop-buttoncover {
+    margin: 0 4.5rem 5.5rem 4.5rem; }
+  .run-desktop-marathon {
+    width: 120px;
+    height: 120px; }
+    .run-desktop-marathon img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
   .run-desktop-header-span {
     font-size: 20px;
     font-family: 'Montserrat'; }
@@ -7855,6 +7864,8 @@ nav {
     width: 80%; }
   .run-desktop-shownav {
     display: none; }
+  .run-desktop-coverbtn {
+    padding: 0.25rem 0.9rem; }
   .run-desktop-cool {
     background: #0091C7;
     transform: skew(-21deg);
@@ -7912,7 +7923,8 @@ nav {
   .run-desktop-buttoncover {
     display: flex;
     justify-content: center;
-    width: 100%; }
+    width: 100%;
+    margin: 0 0 5rem 0; }
   .run-desktop-coverbtn {
     margin-right: 12px !important; }
   .run-desktop-race {
@@ -7964,6 +7976,9 @@ nav {
     background: none;
     border-radius: 0;
     border: none; }
+  -marathon {
+    width: 120px;
+    height: 80px; }
   button:focus {
     outline: none; }
   .material-icons {
@@ -8017,10 +8032,14 @@ nav {
     font-size: 14px; }
   .run-desktop-background {
     margin-top: 3rem !important; }
+  .run-desktop-marathon {
+    width: 120px;
+    height: 80px; }
   .run-desktop-buttoncover {
     display: flex;
     justify-content: center;
-    width: 100%; }
+    width: 100%;
+    margin: 0 0 5rem 0; }
   .run-desktop-coverbtn {
     margin-right: 12px !important; }
   .run-desktop-race {
@@ -8121,8 +8140,9 @@ nav {
     margin-top: 3rem !important; }
   .run-desktop-buttoncover {
     display: flex;
-    justify-content: center;
-    width: 100%; }
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 0 4rem 0; }
   .run-desktop-coverbtn {
     margin-right: 12px !important; }
   .run-desktop-race {
